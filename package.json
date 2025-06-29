@@ -1,0 +1,46 @@
+{
+  "name": "batch-tracking-library",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "npx tsx runner-test.ts",
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "analytics",
+    "tracking",
+    "events"
+  ],
+  "author": "Wellington Barêa",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wellbarea/batch-tracking-library.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/wellbarea/batch-tracking-library/issues"
+  },
+  "homepage": "https://github.com/wellbarea/batch-tracking-library#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.13"
+  }
+}
