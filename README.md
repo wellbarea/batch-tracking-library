@@ -2,6 +2,8 @@
 
 A lightweight and scalable JavaScript library for tracking user interaction events (like button clicks) in web applications. Designed to reliably queue, batch, store, and send events to a backend server — even if the browser is closed or offline temporarily.
 
+https://www.npmjs.com/package/batch-tracking-events-library
+
 ---
 
 ## 🚀 Installation
