@@ -9,9 +9,11 @@ https://www.npmjs.com/package/batch-tracking-events-library
 ## 🚀 Installation
 
 ```bash
-npm install batch-tracking-library
+npm install batch-tracking-events-library
+
 # or
-yarn add batch-tracking-library
+yarn add batch-tracking-events-library
+
 ```
 
 ⚙️ Initialization
@@ -19,7 +21,8 @@ yarn add batch-tracking-library
 Before tracking any event, initialize the library with your project ID and configuration options:
 
 ```bash
-import { init } from 'batch-tracking-library';
+import { init } from 'batch-tracking-events-library
+';
 
 init({
   projectId: 'your-project-id',      // 🔐 Required
@@ -34,7 +37,8 @@ init({
 Use the track function to capture user interactions:
 
 ```bash
-import { track } from 'batch-tracking-library';
+import { track } from 'batch-tracking-events-library
+';
 
 track('button_click', {
   buttonName: 'Save',
